@@ -1,0 +1,5 @@
+---
+title: "Blog"
+---
+
+(Write your research notes or blog posts here)

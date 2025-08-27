@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "(Write your research notes or blog posts here)"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Luoning Zhang",
+    "section": "",
+    "text": "Hello! I am a fourth-year undergraduate student at the University of California, Irvine.\nMy major is Computational and Applied Mathematics with a concentration in Data Science.\nThis website is currently under construction, and I will be adding more details about my research interests, projects, and publications soon. Stay tuned!"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "(List your publications or preprints here)"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "(Insert your CV here or link to a PDF)"
+  }
+]
