@@ -1,5 +1,17 @@
 project:
   type: website
+  render:
+    - index.qmd
+    - research.qmd
+    - projects.qmd
+    - publications-patents.qmd
+    - cv.qmd
+    - courseworks.qmd
+    - nasdaq-prediction.ipynb
+    - dublin-airbnb-analysis.ipynb
+
+filters:
+  - year.lua
 
 website:
   title: "Luoning Zhang"
@@ -7,18 +19,33 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: research.qmd
+        text: Research
+      - href: projects.qmd
+        text: Projects
+      - href: publications-patents.qmd
+        text: "Publications & Patents"
       - href: cv.qmd
         text: CV
-      - href: publications.qmd
-        text: Publications
-      - href: blog.qmd
-        text: Blog
+      - href: courseworks.qmd
+        text: Coursework
   page-footer:
     center: |
-      _This personal website is built using [Quarto](https://quarto.org), an open-source scientific and technical publishing system._
+      © {{< meta year >}} Luoning Zhang · Built with curiosity, ❤️, and [Quarto](https://quarto.org)
+
+redirects:
+  - from: blog.html
+    to: index.html
+  - from: publications.html
+    to: publications-patents.html
+  - from: patents.html
+    to: publications-patents.html
 
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: true
+    include-in-header:
+      - text: |
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">

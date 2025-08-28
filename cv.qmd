@@ -2,4 +2,153 @@
 title: "CV"
 ---
 
-(Insert your CV here or link to a PDF)
+[📄 Download PDF Version](Luoning Zhang_CV.pdf){.btn .btn-primary target="_blank"}
+
+---
+
+## Education
+
+**University of California, Irvine**  
+*B.S. in Applied and Computational Mathematics (Data Science Concentration)*  
+September 2020 – December 2025  
+GPA: 3.845 | Dean's Honor List
+
+## Awards & Fellowship
+
+- UROP Fellow for Summer 2025, UC Irvine | July 2025
+- Third Prize, 18th "Tomorrow's Little Scientists" Award Event | November 2018
+- Second Prize, 38th Beijing Youth Science and Technology Innovation Contest | March 2018
+- First Prize, 20th Hong Kong Youth Science and Technology Innovation Competition | April 2018
+- Shu Ping Scholarship | November 2017
+
+## Skills & Languages
+
+**Data Analysis:** Excel, SQL, Python (Pandas, NumPy, Matplotlib, Seaborn, etc.), R, Tableau, and MATLAB
+
+**Machine Learning:** Keras, PyTorch, Scikit-learn; familiar with machine/deep/reinforcement learning, and model optimization methods
+
+**Project Management:** Goal decomposition, progress-tracking, and cross-functional collaboration (Using tools: Dingding and Lark)
+
+**Social Media Content Production:** Copywriting, graphic design and layout (Xiumi, CDR, Gaoding Design, and Photoshop), video production (CapCut and VideoStudio), and live streaming (OBS, and live room setup)
+
+**Bilingual Communications:** Fluent in English and Chinese
+
+## Research Experience
+
+### Optimizing LLM and RL Methods to Explore Open Problems in Combinatorics: A Case Study on the "No-Three-in-Line" Problem
+*March 2025 – Ongoing*
+
+- Implemented MCTS to explore the largest and smallest complete sets, and optimized the algorithm's time complexity through algorithmic improvements and Numba acceleration (boosting performance from ~7 iter/s to 6,000+ iter/s)
+- For n=53……101, the algorithm finds 1.68n points, which outperforms the previous best lower bound: ((1.5-ε)n)
+- **Ongoing:** Exploring the smallest geometric dominating set and complete set. Developing Graph Search algorithm
+- **Ongoing:** Investigating the LLM-based methods for code optimization to explore the open problems in combinatorics
+
+### Optimizing Large Language Models (LLM) for Academic Support: A Framework for Knowledge Graph (KG) Embedding and Cheat Sheet Generation
+*September 2024 – June 2025*
+
+- Designed a benchmark to evaluate the performance of LLM on college-level academic problems
+- Integrate KG for Retrieval-augmented Generation into LLM and assess the accuracy improvement on the benchmark
+
+### Instantaneous Electromagnetic Water Heater Design and Multiphysics Field Finite Element Optimization
+*August 2016 – October 2017*
+
+- Designed the structure and circuitry of the induction water heater with better energy efficiency and temperature stability; coded a program for temperature control and user interaction on Arduino; optimized the energy efficiency by applying thermodynamic and electromagnetic models and conducting multi-physics field finite element simulations on ANSYS
+- Applied and accepted as Patent Number: ZL201621267831.6
+
+## Project Experience
+
+### Nasdaq Index Prediction and Investment Simulation
+*March 2025*  
+[🔗 Project Link](https://drive.google.com/file/d/1njUm_d0GYLqZYN73xTylvTmCSD6qNk_b/view?usp=sharing)
+
+**Objective:** Predict future Nasdaq Index by machine learning and neural network models
+
+- Preprocessed the dataset (1984 samples and 84 features, including technical indicators, futures contracts, etc.) by feature augmentation, conversion, filling and dropping null values, and time-series train-test split
+- Trained four machine learning models (Linear Regression, Decision Tree, Random Forest, and XGBoost) and four deep learning models (MLP, LSTM, 1DCNN, CNN-LSTM); and used Grid Search to optimize hyperparameters
+- Implemented Recursive Feature Elimination and Time-Series Cross-Validation to select features
+- Evaluated and compared the models and implemented an investment simulation with these models
+
+### CNN and Vision Transformer Pre-trained Models for Facial Emotion Recognition
+*May 2024*  
+[🔗 Project Link](https://drive.google.com/file/d/1j3xmFDkB6QKtBSuIHxm_Fmy72fiZ3dMB/view?usp=sharing)
+
+**Objective:** Building CNN and Vision Transformer networks to recognize facial emotions from scratch
+
+- Preprocessed the FER-2013 dataset with 35,887 grayscale images (48x48 pixels) of 7 categories, addressed class imbalance by resampling, and implemented data augmentation by rotating and resizing the images
+- Designed and optimized the architecture of CNN and Vision Transformer networks, optimized the learning rate, increased the number of layers and used gradual unfreezing to solve underfitting, and incorporated max pooling (for CNN), batch normalizations, dropout layers, and weight decay to overcome overfitting, achieving accuracy score of 0.62 and 0.66
+- The accuracy scores of the CNN and Vision Transformer models are 0.62 and 0.66, respectively. The happy category has the highest accuracy, 0.83. The models also predict well on images outside the dataset, proving their generalization capability
+
+### Market Data Analysis for Airbnb in Dublin
+*April 2024*  
+[🔗 Project Link](https://devpost.com/software/dublin-data-analysis)
+
+**Objective:** Understanding the user profile and optimizing the searching-to-booking conversion rate  
+**Tools used:** Tableau, Python (Pandas, NumPy, Sklearn, XGBoost, Matplotlib, Seaborn)
+
+- Preprocessed the raw dataset (2 tables, 43k rows, and 24 columns) by dropping or filling null values and outliers, converting data types, merging tables and rows, and engineering features
+- Used Plotly, Geopandas, Matplotlib, etc. to depict users' demographics, visualizing insights into the booking process
+- Trained 4 predictive tree models including XGBoost, combined them with the voting classifier, and used cross-validation to optimize parameters; tested the model to predict users' stages in the conversion process (searched, inquired, accepted, and booked), getting an accuracy score of 0.82, 228% higher than guessing randomly
+- Suggested business strategies with a higher potential return on investment
+
+### Analysis on Airline Dataset
+*September 2023*  
+[🔗 Project Link](https://ybaki97.github.io/Math10-SSII23/students/LuoningZhang.html)
+
+**Objective:** Analyzed flight data to understand the demographics of passengers and predict flight status  
+**Tools used:** Python (Pandas, Sklearn, Altair)
+
+- Preprocessed the raw data (98k rows, 15 columns) using pandas, and encoded categorical data with the label encoder
+- Visualized passengers' profiles using Altair to gain insights into their characteristics including nationalities, ages, etc.
+- Tried to predict the flight status ("on time", "delayed", or "canceled") with logistic regression and random forest models
+
+## Work Experience
+
+### EasyTransfer, Beijing, China
+*Social Media Marketing Project Leader and User Growth Analyst*  
+*February 2023 – May 2023 | 40hrs/week*
+
+- Optimized marketing strategy by using funnel model and analyzing user data, and initiated the entire process of WeChat user acquisition SOP from scratch, increasing users by 25%
+- Came up with monthly planning and task allocation strategies across diverse social media channels, compiled weekly data reports of social media projects, and analyzed content and user data through social media analytics platforms, achieving a 50% overall subscription growth rate; 3 accounts grew from 0 to over 100 subscriptions with "hit" posts in a week
+- Supported live broadcast backend operations and live room setup, collected viewer feedback, and reviewed and analyzed live broadcast data to improve live performance, achieving the highest view of over 1,000 and GMV of over 1,200 CNY
+
+### Yiche, Beijing, China
+*User Growth Analyst Intern*  
+*October 2022 – January 2023 | 40hrs/week*
+
+- Collected user behavior data from the SCRM system and conducted data analysis and A/B tests to optimize the creator growth process, achieving a peak of 50 new creators per day and a conversion rate of over 50%
+- Expanded user acquisition channels across various social media platforms to foster the growth of UGC creators base
+- Managed 50 WeChat groups (about 5,000 people) in the Yiche community, conducted group message writing, pushing, and optimizing, and answered user inquiries on the mobile app and website, achieving over 70% community engagement rate and 30% weekly growth rate
+
+### Hou Baoyan Education, Beijing, China
+*Social Media Marketing Intern*  
+*August 2022 – October 2022 | 40hrs/week*
+
+- Assisted with short video planning, filming, editing, and publishing, and optimized the video production process by analyzing content data, achieving over 1,000 new followers from an original of 1,300 followers in a month on Bilibili (a video platform)
+- Executed new user acquisition through free material sharing on major social media platforms, achieving an average lead generation rate of 20%, and assisted with target customer research to provide segment insights for sales increase
+
+### Panopath, Shanghai, China (Hybrid)
+*Event Planning Intern*  
+*August 2020 – March 2021 | 10hrs/week*
+
+- Planned and executed online and in-person social activities to foster subscription of social media accounts and followers' loyalty, participated in brainstorming, designed event process, wrote copy, managed social media groups, and promoted activities; conducted surveys and post-event reviews, achieved the highest 100 subscription growth by single event
+- Managed Beijing branch of "Easiversity", a study space project during pandemic, conducted recruitment and community activities including event process design, promotional copywriting, catering preparation, guest reception, hosting, and controlling the event, with 20 participants attended; increased Panopath's visibility in Beijing
+
+## Student Club Experience
+
+### UCI Math Student Federation
+*President*  
+*July 2024 - June 2025*  
+
+*Public Relations, Board Member*  
+*September 2023 - June 2024*
+
+- Communicated with sponsors to keep the club well-funded
+- Initiated the "Club Alumni Directory" program to foster networking opportunities among current members and ex-members
+- Managed recruitment and social media operations
+
+### Beijing No. 15 High School Science and Technology Club
+*President*  
+*September 2017 – September 2018*
+
+- Managed task allocation, daily operation, promotion, and recruitment; expanded the club from 20 to 60 members
+- Organized and executed club and school-level activities, including a school-level "Creative Fair" with 200 participants

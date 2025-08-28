@@ -1,0 +1,44 @@
+---
+title: "Projects"
+---
+
+### Nasdaq Index Prediction and Investment Simulation
+*March 2025*  
+**Objective:** Predict future Nasdaq Index using machine learning and neural network models.  
+
+[View Notebook](nasdaq-prediction.html){.btn .btn-primary .me-2}
+
+- Preprocessed the dataset (1984 samples, 84 features) including technical indicators, futures contracts, etc. through feature augmentation, conversion, null value handling, and time-series train-test split.  
+- Trained four machine learning models (Linear Regression, Decision Tree, Random Forest, XGBoost) and four deep learning models (MLP, LSTM, 1D CNN, CNN-LSTM), with Grid Search for hyperparameter tuning.  
+- Implemented Recursive Feature Elimination and Time-Series Cross-Validation for feature selection.  
+- Evaluated and compared models and implemented an investment simulation with these models.  
+
+### CNN and Vision Transformer Pre-trained Models for Facial Emotion Recognition
+*May 2024*  
+**Objective:** Build CNN and Vision Transformer networks to recognize facial emotions from scratch.  
+
+[View Report](CS172B_Final_Paper.pdf){.btn .btn-primary .me-2} [View Slides](CS172B_Slide.pdf){.btn .btn-outline-secondary}
+
+- Preprocessed the FER-2013 dataset (35,887 grayscale images, 48x48 pixels, 7 categories). Addressed class imbalance with resampling and used data augmentation (rotation, resizing).  
+- Designed and optimized CNN and Vision Transformer architectures. Applied learning rate schedules, gradual unfreezing, max pooling (CNN), batch normalization, dropout, and weight decay to address under/overfitting.  
+- Achieved accuracy scores of 0.62 (CNN) and 0.66 (ViT). The "happy" category had the highest accuracy (0.83). Models generalized well on images outside the dataset.  
+
+### Market Data Analysis for Airbnb in Dublin
+*April 2024*  
+**Objective:** Understand user profiles and optimize the search-to-booking conversion rate.  
+**Tools:** Tableau, Python (Pandas, NumPy, Sklearn, XGBoost, Matplotlib, Seaborn)  
+
+[View Notebook](dublin-airbnb-analysis.html){.btn .btn-primary .me-2}
+
+- Preprocessed the dataset (2 tables, 43k rows, 24 columns): handled nulls/outliers, converted data types, merged tables, engineered features.  
+- Visualized demographics and booking behavior using Plotly, GeoPandas, and Matplotlib.  
+- Trained predictive models (including XGBoost), combined them with a voting classifier, and applied cross-validation. Achieved accuracy of 0.82 (228% higher than random guessing).  
+- Suggested business strategies with higher potential ROI.  
+
+### Analysis on Airline Dataset
+*September 2023*  
+**Objective:** Analyze flight data to understand passenger demographics and predict flight status.  
+**Tools:** Python (Pandas, Sklearn, Altair)  
+- Preprocessed dataset (98k rows, 15 columns) using pandas; encoded categorical data with label encoding.  
+- Visualized passenger profiles (nationality, age, etc.) using Altair.  
+- Predicted flight status (“on time,” “delayed,” “canceled”) with logistic regression and random forest models.  

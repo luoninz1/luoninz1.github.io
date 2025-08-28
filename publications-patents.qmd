@@ -1,0 +1,16 @@
+---
+title: "Publications & Patents"
+---
+
+## Publications
+
+
+- *Work in progress*: Optimizing LLM and RL Methods to Explore Open Problems in Combinatorics.
+
+## Patents
+
+- **Utility Model Patent**: *Instant Induction Water Heater with Automatic Temperature Control*.  
+  Patent Number: CN 2016 2 1267831.6.  
+  Application Date: Nov. 23, 2016.  
+  Publication Date: May 24, 2017.  
+  Patentee: Luoning Zhang.  

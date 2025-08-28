@@ -1,0 +1,16 @@
+---
+title: "Courseworks"
+---
+
+Courses Taken:
+
+- **MATH 9** – Introduction to Programming for Numerical Analysis  
+- **MATH 10** – Introduction to Programming for Data Science  
+- **MATH 105A–B** – Numerical Analysis (two-course sequence)  
+- **MATH 110A–B** – Optimization (two-course sequence)  
+- **MATH 176** – Mathematics of Finance  
+- **MATH 178** – Mathematical Machine Learning  
+- **COMPSCI 172B** – Neural Networks and Deep Learning  
+  - Equivalent to Graduate Course **COMPSCI 274C**  
+- **STATS 110** – Statistical Methods for Data Analysis I  
+  - Equivalent to Graduate Course **STATS 201**  

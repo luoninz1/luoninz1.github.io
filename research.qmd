@@ -1,0 +1,22 @@
+---
+title: "Research"
+---
+
+### Optimizing LLM and RL Methods to Explore Open Problems in Combinatorics
+*March 2025 – Ongoing*  
+- Implemented Monte Carlo Tree Search (MCTS) to explore the largest and smallest complete sets, and optimized the algorithm’s time complexity through algorithmic improvements and Numba acceleration (boosting performance from ~7 iter/s to 6,000+ iter/s).  
+- For n = 53 … 101, the algorithm finds **1.68n** points, which outperforms the previous best lower bound of ((1.5 - ε) n).  
+- Ongoing: Exploring the smallest geometric dominating set and complete set; developing graph search algorithms.  
+- Ongoing: Investigating LLM-based methods for code optimization to explore open problems in combinatorics.  
+
+### Optimizing Large Language Models (LLM) for Academic Support: A Framework for Knowledge Graph (KG) Embedding and Cheat Sheet Generation
+*September 2024 – Ongoing*  
+- Designed a benchmark to evaluate the performance of LLMs on college-level academic problems.  
+- Integrated knowledge graphs (KG) for Retrieval-augmented Generation into LLMs and assessed accuracy improvements on the benchmark.  
+
+### Instantaneous Electromagnetic Water Heater Design and Multiphysics Field Finite Element Optimization
+*August 2016 – October 2017*  
+- Designed the structure and circuitry of an induction water heater with improved energy efficiency and temperature stability.  
+- Coded a program for temperature control and user interaction on Arduino.  
+- Optimized energy efficiency by applying thermodynamic and electromagnetic models and conducting multiphysics finite element simulations in ANSYS.  
+- Applied and accepted as **Patent Number: ZL201621267831.6**.

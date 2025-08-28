@@ -2,7 +2,92 @@
 title: "Luoning Zhang"
 ---
 
-Hello! I am a fourth-year undergraduate student at the University of California, Irvine.  
-My major is **Computational and Applied Mathematics** with a concentration in **Data Science**.
+:::: {.columns}
 
-This website is currently under construction, and I will be adding more details about my research interests, projects, and publications soon. Stay tuned!
+::: {.column width="65%"}
+I am a fourth-year undergraduate student at the **University of California, Irvine**, majoring in **Computational and Applied Mathematics** with a concentration in **Data Science**.  
+
+I have strong interests in **Reinforcement Learning**, **Deep Learning**, and their applications to **computer vision**, **natural language processing**, **code superoptimization**, **automated driving**, and **AI for mathematics (AI4Math)**, with relevant [**research**](research.qmd) and [**project**](projects.qmd) experience in some of these areas.  
+
+My goal is to leverage computer algorithms and automation technologies to free humanity from repetitive physical and mental labor, allowing us to focus on creativity and imagination, and ultimately to accelerate scientific progress and human well-being.
+
+**Contact me:** [luoninz1@uci.edu](mailto:luoninz1@uci.edu) | Here's my [**Curriculum Vitae (CV)**](cv.qmd)
+
+:::
+
+::: {.column width="35%"}
+![](profile.jpg){.profile-photo}
+
+<div class="social-links">
+  <a href="mailto:luoninz1@uci.edu" class="social-icon">
+    <i class="fas fa-envelope"></i>
+  </a>
+  <a href="https://www.linkedin.com/in/luoning-zhang" class="social-icon">
+    <i class="fab fa-linkedin"></i>
+  </a>
+  <a href="https://github.com/luoninz1" class="social-icon">
+    <i class="fab fa-github"></i>
+  </a>
+</div>
+:::
+
+::::
+
+## Interests
+
+- Reinforcement Learning  
+- Deep Learning  
+- Automated Driving  
+- Code Superoptimization
+- AI4Math
+
+## Skills
+
+- **Programming:** Python, R, MATLAB, C  
+- **Machine Learning:** PyTorch, Keras, Scikit-learn; familiar with deep learning, reinforcement learning, and hyperparameter optimization  
+- **Data Analysis & Scientific Computing:** Pandas, NumPy, SciPy, Numba, Matplotlib, Seaborn, SQL, Tableau, Excel  
+- **Tools:** Git, LaTeX  
+- **Design & Media Production:** CorelDRAW, Photoshop, Canva, CapCut, VideoStudio, OBS  
+- **Languages:** Fluent in English and Chinese
+
+## Education
+- **University of California, Irvine**  
+  *B.S. in Applied and Computational Mathematics (Data Science Concentration)*  
+  *September 2020 – December 2025*  
+  GPA: **3.85** (Upper-division GPA: **4.00**)  
+  Dean’s Honor List  
+
+<style>
+.profile-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  border: 3px solid #ddd;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.social-icon {
+  color: #6c757d;
+  font-size: 24px;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.social-icon:hover {
+  color: #007bff;
+}
+
+.social-icon i {
+  width: 30px;
+  text-align: center;
+}
+</style>
