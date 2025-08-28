@@ -81,7 +81,7 @@
     "href": "research.html",
     "title": "Research",
     "section": "",
-    "text": "Optimizing LLM and RL Methods to Explore Open Problems in Combinatorics\nMarch 2025 – Ongoing\n- Implemented Monte Carlo Tree Search (MCTS) to explore the largest and smallest complete sets, and optimized the algorithm’s time complexity through algorithmic improvements and Numba acceleration (boosting performance from ~7 iter/s to 6,000+ iter/s).\n- For n = 53 … 101, the algorithm finds 1.68n points, which outperforms the previous best lower bound of ((1.5 - ε) n).\n- Ongoing: Exploring the smallest geometric dominating set and complete set; developing graph search algorithms.\n- Ongoing: Investigating LLM-based methods for code optimization to explore open problems in combinatorics.\n\n\nOptimizing Large Language Models (LLM) for Academic Support: A Framework for Knowledge Graph (KG) Embedding and Cheat Sheet Generation\nSeptember 2024 – Ongoing\n- Designed a benchmark to evaluate the performance of LLMs on college-level academic problems.\n- Integrated knowledge graphs (KG) for Retrieval-augmented Generation into LLMs and assessed accuracy improvements on the benchmark.\n\n\nInstantaneous Electromagnetic Water Heater Design and Multiphysics Field Finite Element Optimization\nAugust 2016 – October 2017\n- Designed the structure and circuitry of an induction water heater with improved energy efficiency and temperature stability.\n- Coded a program for temperature control and user interaction on Arduino.\n- Optimized energy efficiency by applying thermodynamic and electromagnetic models and conducting multiphysics finite element simulations in ANSYS.\n- Applied and accepted as Patent Number: ZL201621267831.6."
+    "text": "Optimizing LLM and RL Methods to Explore Open Problems in Combinatorics\nMarch 2025 – Ongoing\n- Implemented Monte Carlo Tree Search (MCTS) to explore the largest and smallest complete sets, and optimized the algorithm’s time complexity through algorithmic improvements and Numba acceleration (boosting performance from ~7 iter/s to 6,000+ iter/s).\n- For n = 53 … 101, the algorithm finds 1.68n points, which outperforms the previous best lower bound of ((1.5 - ε) n).\n- Ongoing: Exploring the smallest geometric dominating set and complete set; developing graph search algorithms.\n- Ongoing: Investigating LLM-based methods for code optimization to explore open problems in combinatorics.\n\n\nOptimizing Large Language Models (LLM) for Academic Support: A Framework for Knowledge Graph (KG) Embedding and Cheat Sheet Generation\nSeptember 2024 – Ongoing\nSymposium Poster (Interim Presentation)\n\nDesigned a benchmark to evaluate the performance of LLMs on college-level academic problems.\n\nIntegrated knowledge graphs (KG) for Retrieval-augmented Generation into LLMs and assessed accuracy improvements on the benchmark.\n\n\n\nInstantaneous Electromagnetic Water Heater Design and Multiphysics Field Finite Element Optimization\nAugust 2016 – October 2017\n- Designed the structure and circuitry of an induction water heater with improved energy efficiency and temperature stability.\n- Coded a program for temperature control and user interaction on Arduino.\n- Optimized energy efficiency by applying thermodynamic and electromagnetic models and conducting multiphysics finite element simulations in ANSYS.\n- Applied and accepted as Patent Number: ZL201621267831.6."
   },
   {
     "objectID": "index.html",
@@ -236,5 +236,19 @@
     "title": "Nasdaq Index Prediction and Investment Simulation",
     "section": "Reference",
     "text": "Reference\n\nCNNpred: CNN-based stock market prediction using a diverse set of variables https://archive.ics.uci.edu/dataset/554/cnnpred+cnn+based+stock+market+prediction+using+a+diverse+set+of+variables\nThe idea of RFE and Time Series Cross-Validation are coming from ChatGPT and DeepSeek. The investment simulation part is modified from ChatGPT. Used ChatGPT to check the PEP8 format.\nMartingale (probability theory) https://en.wikipedia.org/wiki/Martingale_(probability_theory)\nRecursive feature elimination with cross-validation https://scikit-learn.org/stable/auto_examples/feature_selection/plot_rfe_with_cross_validation.html\n\n   Created in Deepnote"
+  },
+  {
+    "objectID": "urop-symposium.html",
+    "href": "urop-symposium.html",
+    "title": "2025 UC Irvine Undergraduate Research Symposium",
+    "section": "",
+    "text": "Symposium Poster (Interim Presentation)"
+  },
+  {
+    "objectID": "urop-symposium.html#symposium-poster-interim-presentation",
+    "href": "urop-symposium.html#symposium-poster-interim-presentation",
+    "title": "2025 UC Irvine Undergraduate Research Symposium",
+    "section": "",
+    "text": "Symposium Poster (Interim Presentation)"
   }
 ]

@@ -1,0 +1,7 @@
+---
+title: "2025 UC Irvine Undergraduate Research Symposium"
+---
+
+## Symposium Poster (Interim Presentation)
+
+![Poster](UROP.png){fig-align="center" width="80%"}

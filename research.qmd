@@ -11,6 +11,9 @@ title: "Research"
 
 ### Optimizing Large Language Models (LLM) for Academic Support: A Framework for Knowledge Graph (KG) Embedding and Cheat Sheet Generation
 *September 2024 – Ongoing*  
+
+[Symposium Poster (Interim Presentation)](urop-symposium.html){.btn .btn-primary .me-2}
+
 - Designed a benchmark to evaluate the performance of LLMs on college-level academic problems.  
 - Integrated knowledge graphs (KG) for Retrieval-augmented Generation into LLMs and assessed accuracy improvements on the benchmark.  
 

@@ -9,6 +9,7 @@ project:
     - courseworks.qmd
     - nasdaq-prediction.ipynb
     - dublin-airbnb-analysis.ipynb
+    - urop-symposium.qmd
 
 filters:
   - year.lua
