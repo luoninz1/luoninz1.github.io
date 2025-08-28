@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Luoning Zhang</title>
+<title>Projects – Luoning Zhang</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -91,7 +91,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -99,7 +99,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html"> 
+    <a class="nav-link active" href="./projects.html" aria-current="page"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
@@ -130,9 +130,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#interests" id="toc-interests" class="nav-link active" data-scroll-target="#interests">Interests</a></li>
-  <li><a href="#skills" id="toc-skills" class="nav-link" data-scroll-target="#skills">Skills</a></li>
-  <li><a href="#education" id="toc-education" class="nav-link" data-scroll-target="#education">Education</a></li>
+  <li><a href="#nasdaq-index-prediction-and-investment-simulation" id="toc-nasdaq-index-prediction-and-investment-simulation" class="nav-link active" data-scroll-target="#nasdaq-index-prediction-and-investment-simulation">Nasdaq Index Prediction and Investment Simulation</a></li>
+  <li><a href="#cnn-and-vision-transformer-pre-trained-models-for-facial-emotion-recognition" id="toc-cnn-and-vision-transformer-pre-trained-models-for-facial-emotion-recognition" class="nav-link" data-scroll-target="#cnn-and-vision-transformer-pre-trained-models-for-facial-emotion-recognition">CNN and Vision Transformer Pre-trained Models for Facial Emotion Recognition</a></li>
+  <li><a href="#market-data-analysis-for-airbnb-in-dublin" id="toc-market-data-analysis-for-airbnb-in-dublin" class="nav-link" data-scroll-target="#market-data-analysis-for-airbnb-in-dublin">Market Data Analysis for Airbnb in Dublin</a></li>
+  <li><a href="#analysis-on-airline-dataset" id="toc-analysis-on-airline-dataset" class="nav-link" data-scroll-target="#analysis-on-airline-dataset">Analysis on Airline Dataset</a></li>
   </ul>
 </nav>
     </div>
@@ -141,7 +142,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Luoning Zhang</h1>
+<h1 class="title">Projects</h1>
 </div>
 
 
@@ -158,91 +159,58 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="columns">
-<div class="column" style="width:65%;">
-<p>I am a fourth-year undergraduate student at the <strong>University of California, Irvine</strong>, majoring in <strong>Computational and Applied Mathematics</strong> with a concentration in <strong>Data Science</strong>.</p>
-<p>I have strong interests in <strong>Reinforcement Learning</strong>, <strong>Deep Learning</strong>, and their applications to <strong>computer vision</strong>, <strong>natural language processing</strong>, <strong>code superoptimization</strong>, <strong>automated driving</strong>, and <strong>AI for mathematics (AI4Math)</strong>, with relevant <a href="./research.html"><strong>research</strong></a> and <a href="./projects.html"><strong>project</strong></a> experience in some of these areas.</p>
-<p>My goal is to leverage computer algorithms and automation technologies to free humanity from repetitive physical and mental labor, allowing us to focus on creativity and imagination, and ultimately to accelerate scientific progress and human well-being.</p>
-<p><strong>Contact me:</strong> <a href="mailto:luoninz1@uci.edu">luoninz1@uci.edu</a> | Here’s my <a href="./cv.html"><strong>Curriculum Vitae (CV)</strong></a></p>
-</div><div class="column" style="width:35%;">
-<p><img src="profile.jpg" class="profile-photo img-fluid"></p>
-<div class="social-links">
-<p><a href="mailto:luoninz1@uci.edu" class="social-icon"> <i class="fas fa-envelope"></i> </a> <a href="https://www.linkedin.com/in/luoning-zhang" class="social-icon"> <i class="fab fa-linkedin"></i> </a> <a href="https://github.com/luoninz1" class="social-icon"> <i class="fab fa-github"></i> </a></p>
-</div>
-</div>
-</div>
-<section id="interests" class="level2">
-<h2 class="anchored" data-anchor-id="interests">Interests</h2>
+<section id="nasdaq-index-prediction-and-investment-simulation" class="level3">
+<h3 class="anchored" data-anchor-id="nasdaq-index-prediction-and-investment-simulation">Nasdaq Index Prediction and Investment Simulation</h3>
+<p><em>March 2025</em><br>
+<strong>Objective:</strong> Predict future Nasdaq Index using machine learning and neural network models.</p>
+<p><a href="nasdaq-prediction.html" class="btn btn-primary me-2">View Notebook</a></p>
 <ul>
-<li>Reinforcement Learning<br>
+<li>Preprocessed the dataset (1984 samples, 84 features) including technical indicators, futures contracts, etc. through feature augmentation, conversion, null value handling, and time-series train-test split.<br>
 </li>
-<li>Deep Learning<br>
+<li>Trained four machine learning models (Linear Regression, Decision Tree, Random Forest, XGBoost) and four deep learning models (MLP, LSTM, 1D CNN, CNN-LSTM), with Grid Search for hyperparameter tuning.<br>
 </li>
-<li>Automated Driving<br>
+<li>Implemented Recursive Feature Elimination and Time-Series Cross-Validation for feature selection.<br>
 </li>
-<li>Code Superoptimization</li>
-<li>AI4Math</li>
+<li>Evaluated and compared models and implemented an investment simulation with these models.</li>
 </ul>
 </section>
-<section id="skills" class="level2">
-<h2 class="anchored" data-anchor-id="skills">Skills</h2>
+<section id="cnn-and-vision-transformer-pre-trained-models-for-facial-emotion-recognition" class="level3">
+<h3 class="anchored" data-anchor-id="cnn-and-vision-transformer-pre-trained-models-for-facial-emotion-recognition">CNN and Vision Transformer Pre-trained Models for Facial Emotion Recognition</h3>
+<p><em>May 2024</em><br>
+<strong>Objective:</strong> Build CNN and Vision Transformer networks to recognize facial emotions from scratch.</p>
+<p><a href="CS172B_Final_Paper.pdf" class="btn btn-primary me-2">View Report</a> <a href="CS172B_Slide.pdf" class="btn btn-outline-secondary">View Slides</a></p>
 <ul>
-<li><strong>Programming:</strong> Python, R, MATLAB, C<br>
+<li>Preprocessed the FER-2013 dataset (35,887 grayscale images, 48x48 pixels, 7 categories). Addressed class imbalance with resampling and used data augmentation (rotation, resizing).<br>
 </li>
-<li><strong>Machine Learning:</strong> PyTorch, Keras, Scikit-learn; familiar with deep learning, reinforcement learning, and hyperparameter optimization<br>
+<li>Designed and optimized CNN and Vision Transformer architectures. Applied learning rate schedules, gradual unfreezing, max pooling (CNN), batch normalization, dropout, and weight decay to address under/overfitting.<br>
 </li>
-<li><strong>Data Analysis &amp; Scientific Computing:</strong> Pandas, NumPy, SciPy, Numba, Matplotlib, Seaborn, SQL, Tableau, Excel<br>
-</li>
-<li><strong>Tools:</strong> Git, LaTeX<br>
-</li>
-<li><strong>Design &amp; Media Production:</strong> CorelDRAW, Photoshop, Canva, CapCut, VideoStudio, OBS<br>
-</li>
-<li><strong>Languages:</strong> Fluent in English and Chinese</li>
+<li>Achieved accuracy scores of 0.62 (CNN) and 0.66 (ViT). The “happy” category had the highest accuracy (0.83). Models generalized well on images outside the dataset.</li>
 </ul>
 </section>
-<section id="education" class="level2">
-<h2 class="anchored" data-anchor-id="education">Education</h2>
+<section id="market-data-analysis-for-airbnb-in-dublin" class="level3">
+<h3 class="anchored" data-anchor-id="market-data-analysis-for-airbnb-in-dublin">Market Data Analysis for Airbnb in Dublin</h3>
+<p><em>April 2024</em><br>
+<strong>Objective:</strong> Understand user profiles and optimize the search-to-booking conversion rate.<br>
+<strong>Tools:</strong> Tableau, Python (Pandas, NumPy, Sklearn, XGBoost, Matplotlib, Seaborn)</p>
+<p><a href="dublin-airbnb-analysis.html" class="btn btn-primary me-2">View Notebook</a></p>
 <ul>
-<li><strong>University of California, Irvine</strong><br>
-<em>B.S. in Applied and Computational Mathematics (Data Science Concentration)</em><br>
-<em>September 2020 – December 2025</em><br>
-GPA: <strong>3.85</strong> (Upper-division GPA: <strong>4.00</strong>)<br>
-Dean’s Honor List</li>
+<li>Preprocessed the dataset (2 tables, 43k rows, 24 columns): handled nulls/outliers, converted data types, merged tables, engineered features.<br>
+</li>
+<li>Visualized demographics and booking behavior using Plotly, GeoPandas, and Matplotlib.<br>
+</li>
+<li>Trained predictive models (including XGBoost), combined them with a voting classifier, and applied cross-validation. Achieved accuracy of 0.82 (228% higher than random guessing).<br>
+</li>
+<li>Suggested business strategies with higher potential ROI.</li>
 </ul>
-<style>
-.profile-photo {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  object-fit: cover;
-  display: block;
-  margin: 0 auto;
-  border: 3px solid #ddd;
-}
-
-.social-links {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  margin-top: 20px;
-}
-
-.social-icon {
-  color: #6c757d;
-  font-size: 24px;
-  transition: color 0.3s ease;
-  text-decoration: none;
-}
-
-.social-icon:hover {
-  color: #007bff;
-}
-
-.social-icon i {
-  width: 30px;
-  text-align: center;
-}
-</style>
+</section>
+<section id="analysis-on-airline-dataset" class="level3">
+<h3 class="anchored" data-anchor-id="analysis-on-airline-dataset">Analysis on Airline Dataset</h3>
+<p><em>September 2023</em><br>
+<strong>Objective:</strong> Analyze flight data to understand passenger demographics and predict flight status.<br>
+<strong>Tools:</strong> Python (Pandas, Sklearn, Altair)<br>
+- Preprocessed dataset (98k rows, 15 columns) using pandas; encoded categorical data with label encoding.<br>
+- Visualized passenger profiles (nationality, age, etc.) using Altair.<br>
+- Predicted flight status (“on time,” “delayed,” “canceled”) with logistic regression and random forest models.</p>
 
 
 </section>
