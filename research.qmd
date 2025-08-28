@@ -4,6 +4,9 @@ title: "Research"
 
 ### Optimizing LLM and RL Methods to Explore Open Problems in Combinatorics
 *March 2025 – Ongoing*  
+
+[Demo Game](https://luoninz1.github.io/N3il_Board_Game/){.btn .btn-primary .me-2}
+
 - Implemented Monte Carlo Tree Search (MCTS) to explore the largest and smallest complete sets, and optimized the algorithm’s time complexity through algorithmic improvements and Numba acceleration (boosting performance from ~7 iter/s to 6,000+ iter/s).  
 - For n = 53 … 101, the algorithm finds **1.68n** points, which outperforms the previous best lower bound((1.5 - ε) n).  
 - Ongoing: Exploring the smallest geometric dominating set and complete set; developing graph search algorithms.  

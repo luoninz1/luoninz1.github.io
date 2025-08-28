@@ -5,3 +5,18 @@ title: "2025 UC Irvine Undergraduate Research Symposium"
 ## Symposium Poster (Interim Presentation)
 
 ![Poster](UROP.png){fig-align="center" width="80%"}
+
+## Symposium Photos
+
+![UROP 2025 Photo 1 (Left to right: Xinrui Fu, Yanjun He, Luoning Zhang, and Jiaye Liu)](2025_UROP_1.jpg){fig-align="center" width="70%"}
+
+![UROP 2025 Photo 2](2025_UROP.JPEG){fig-align="center" width="70%"}
+
+<style>
+figure figcaption {
+  text-align: center;
+  font-style: italic;
+  color: #6c757d;
+  margin-top: 0.5rem;
+}
+</style>

@@ -14,6 +14,13 @@
     "text": "Poster"
   },
   {
+    "objectID": "urop-symposium.html#symposium-photos",
+    "href": "urop-symposium.html#symposium-photos",
+    "title": "2025 UC Irvine Undergraduate Research Symposium",
+    "section": "Symposium Photos",
+    "text": "Symposium Photos\n\n\n\nUROP 2025 Photo 1 (Left to right: Xinrui Fu, Yanjun He, Luoning Zhang, and Jiaye Liu)\n\n\n\n\n\nUROP 2025 Photo 2"
+  },
+  {
     "objectID": "nasdaq-prediction.html",
     "href": "nasdaq-prediction.html",
     "title": "Nasdaq Index Prediction and Investment Simulation",
@@ -172,7 +179,7 @@
     "href": "research.html",
     "title": "Research",
     "section": "",
-    "text": "Optimizing LLM and RL Methods to Explore Open Problems in Combinatorics\nMarch 2025 – Ongoing\n- Implemented Monte Carlo Tree Search (MCTS) to explore the largest and smallest complete sets, and optimized the algorithm’s time complexity through algorithmic improvements and Numba acceleration (boosting performance from ~7 iter/s to 6,000+ iter/s).\n- For n = 53 … 101, the algorithm finds 1.68n points, which outperforms the previous best lower bound((1.5 - ε) n).\n- Ongoing: Exploring the smallest geometric dominating set and complete set; developing graph search algorithms.\n- Ongoing: Investigating LLM-based methods for code optimization to explore open problems in combinatorics.\n\n\nOptimizing Large Language Models (LLM) for Academic Support: A Framework for Knowledge Graph (KG) Embedding and Cheat Sheet Generation\nSeptember 2024 – Ongoing\nSymposium Poster (Interim Presentation)\n\nDesigned a benchmark to evaluate the performance of LLMs on college-level academic problems.\n\nIntegrated knowledge graphs (KG) for Retrieval-augmented Generation into LLMs and assessed accuracy improvements on the benchmark.\n\n\n\nInstantaneous Electromagnetic Water Heater Design and Multiphysics Field Finite Element Optimization\nAugust 2016 – October 2017\n- Designed the structure and circuitry of an induction water heater with improved energy efficiency and temperature stability.\n- Coded a program for temperature control and user interaction on Arduino.\n- Optimized energy efficiency by applying thermodynamic and electromagnetic models and conducting multiphysics finite element simulations in ANSYS.\n- Applied and accepted as Patent Number: ZL201621267831.6."
+    "text": "Optimizing LLM and RL Methods to Explore Open Problems in Combinatorics\nMarch 2025 – Ongoing\nDemo Game\n\nImplemented Monte Carlo Tree Search (MCTS) to explore the largest and smallest complete sets, and optimized the algorithm’s time complexity through algorithmic improvements and Numba acceleration (boosting performance from ~7 iter/s to 6,000+ iter/s).\n\nFor n = 53 … 101, the algorithm finds 1.68n points, which outperforms the previous best lower bound((1.5 - ε) n).\n\nOngoing: Exploring the smallest geometric dominating set and complete set; developing graph search algorithms.\n\nOngoing: Investigating LLM-based methods for code optimization to explore open problems in combinatorics.\n\n\n\nOptimizing Large Language Models (LLM) for Academic Support: A Framework for Knowledge Graph (KG) Embedding and Cheat Sheet Generation\nSeptember 2024 – Ongoing\nSymposium Poster (Interim Presentation)\n\nDesigned a benchmark to evaluate the performance of LLMs on college-level academic problems.\n\nIntegrated knowledge graphs (KG) for Retrieval-augmented Generation into LLMs and assessed accuracy improvements on the benchmark.\n\n\n\nInstantaneous Electromagnetic Water Heater Design and Multiphysics Field Finite Element Optimization\nAugust 2016 – October 2017\n- Designed the structure and circuitry of an induction water heater with improved energy efficiency and temperature stability.\n- Coded a program for temperature control and user interaction on Arduino.\n- Optimized energy efficiency by applying thermodynamic and electromagnetic models and conducting multiphysics finite element simulations in ANSYS.\n- Applied and accepted as Patent Number: ZL201621267831.6."
   },
   {
     "objectID": "publications-patents.html",
