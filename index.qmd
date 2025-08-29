@@ -45,9 +45,10 @@ My goal is to leverage computer algorithms and automation technologies to free h
 
 - **Programming:** Python, R, MATLAB, C  
 - **Machine Learning:** PyTorch, Keras, Scikit-learn; familiar with deep learning, reinforcement learning, and hyperparameter optimization  
-- **Data Analysis & Scientific Computing:** Pandas, NumPy, SciPy, Numba, Matplotlib, Seaborn, SQL, Tableau, Excel  
+- **Data Analysis & Scientific Computing:** Pandas, NumPy, SciPy, Numba, Matplotlib, Seaborn, SQL, Tableau, ANSYS, Excel  
+- **Embedded Systems:** Analog & Digital Circuits, 8051 MCU Development, Arduino  
 - **Tools:** Git, LaTeX  
-- **Design & Media Production:** CorelDRAW, Photoshop, Canva, CapCut, VideoStudio, OBS  
+- **Design & Media Production:** SolidWorks, CorelDRAW, Photoshop, Canva, CapCut, VideoStudio, OBS  
 - **Languages:** Fluent in English and Chinese
 
 ## Education
