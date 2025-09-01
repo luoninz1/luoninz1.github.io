@@ -69,6 +69,35 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -130,7 +159,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#optimizing-llm-and-rl-methods-to-explore-open-problems-in-combinatorics" id="toc-optimizing-llm-and-rl-methods-to-explore-open-problems-in-combinatorics" class="nav-link active" data-scroll-target="#optimizing-llm-and-rl-methods-to-explore-open-problems-in-combinatorics">Optimizing LLM and RL Methods to Explore Open Problems in Combinatorics</a></li>
+  <li><a href="#optimizing-large-language-model-llm-and-reinforcement-learning-rl-methods-to-explore-open-problems-in-combinatorics" id="toc-optimizing-large-language-model-llm-and-reinforcement-learning-rl-methods-to-explore-open-problems-in-combinatorics" class="nav-link active" data-scroll-target="#optimizing-large-language-model-llm-and-reinforcement-learning-rl-methods-to-explore-open-problems-in-combinatorics">Optimizing Large Language Model (LLM) and Reinforcement Learning (RL) Methods to Explore Open Problems in Combinatorics</a></li>
   <li><a href="#optimizing-large-language-models-llm-for-academic-support-a-framework-for-knowledge-graph-kg-embedding-and-cheat-sheet-generation" id="toc-optimizing-large-language-models-llm-for-academic-support-a-framework-for-knowledge-graph-kg-embedding-and-cheat-sheet-generation" class="nav-link" data-scroll-target="#optimizing-large-language-models-llm-for-academic-support-a-framework-for-knowledge-graph-kg-embedding-and-cheat-sheet-generation">Optimizing Large Language Models (LLM) for Academic Support: A Framework for Knowledge Graph (KG) Embedding and “Cheat Sheet” Generation</a></li>
   <li><a href="#instantaneous-electromagnetic-water-heater-design-and-multiphysics-field-finite-element-optimization" id="toc-instantaneous-electromagnetic-water-heater-design-and-multiphysics-field-finite-element-optimization" class="nav-link" data-scroll-target="#instantaneous-electromagnetic-water-heater-design-and-multiphysics-field-finite-element-optimization">Instantaneous Electromagnetic Water Heater Design and Multiphysics Field Finite Element Optimization</a></li>
   </ul>
@@ -158,19 +187,19 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="optimizing-llm-and-rl-methods-to-explore-open-problems-in-combinatorics" class="level3">
-<h3 class="anchored" data-anchor-id="optimizing-llm-and-rl-methods-to-explore-open-problems-in-combinatorics">Optimizing LLM and RL Methods to Explore Open Problems in Combinatorics</h3>
+<section id="optimizing-large-language-model-llm-and-reinforcement-learning-rl-methods-to-explore-open-problems-in-combinatorics" class="level3">
+<h3 class="anchored" data-anchor-id="optimizing-large-language-model-llm-and-reinforcement-learning-rl-methods-to-explore-open-problems-in-combinatorics">Optimizing Large Language Model (LLM) and Reinforcement Learning (RL) Methods to Explore Open Problems in Combinatorics</h3>
 <p><em>March 2025 – Ongoing</em></p>
 <p><strong>Mentored by</strong> <a href="https://www.math.uci.edu/~nckaplan/">Prof.&nbsp;Nathan Kaplan</a>. | <strong>Collaborated with</strong> <a href="https://zxmath.github.io/">Xu Zhuang</a>, and <a href="https://tianhaow.github.io/">Tianhao Wang</a>.</p>
 <p><a href="https://luoninz1.github.io/N3il_Board_Game/" class="btn btn-primary me-2">Demo Game</a></p>
 <ul>
-<li>Implemented Monte Carlo Tree Search (MCTS) to explore the largest and smallest complete sets, and optimized the algorithm’s time complexity through algorithmic improvements and Numba acceleration (boosting performance from ~7 iter/s to 6,000+ iter/s).<br>
+<li>Implemented Monte Carlo Tree Search (MCTS) and Neural Networks to explore the largest and smallest complete sets, and optimized the algorithm’s time complexity through algorithmic improvements and Numba acceleration, boosting performance from ~7 iter/s to 15,000+ iter/s.<br>
 </li>
-<li>For n = 53 … 101, the algorithm finds <strong>1.68n</strong> points, which outperforms the previous best lower bound((1.5 - ε) n).<br>
+<li>For <span class="math inline">\(n = 58 \dots 72\)</span>, the algorithm finds <strong><span class="math inline">\(1.8n \pm 2\)</span></strong> points, which outperforms the previous best lower bound: <span class="math inline">\((1.5 - \varepsilon) n\)</span>. Based on the observed trend, the bound appears to asymptotically approach <span class="math inline">\(1.8n\)</span> for larger <span class="math inline">\(n\)</span>.</li>
+<li>Optimizing an AlphaZero-based reinforcement learning framework, focusing on state encoding, network architecture, hyperparameter tuning, and data augmentation.</li>
+<li>Exploring the smallest geometric dominating set and complete set; developing graph search algorithms.<br>
 </li>
-<li>Ongoing: Exploring the smallest geometric dominating set and complete set; developing graph search algorithms.<br>
-</li>
-<li>Ongoing: Investigating LLM-based methods for code optimization to explore open problems in combinatorics.</li>
+<li>Investigating LLM-based methods for code optimization to explore open problems in combinatorics.</li>
 </ul>
 </section>
 <section id="optimizing-large-language-models-llm-for-academic-support-a-framework-for-knowledge-graph-kg-embedding-and-cheat-sheet-generation" class="level3">
