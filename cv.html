@@ -69,6 +69,35 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -190,7 +219,7 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>University of California, Irvine</strong><br>
 <em>B.S. in Applied and Computational Mathematics (Data Science Concentration)</em><br>
 September 2020 – December 2025<br>
-GPA: 3.845 | Dean’s Honor List</p>
+GPA: <strong>3.845</strong> (Upper-division GPA: <strong>4.00</strong>) | Dean’s Honor List</p>
 </section>
 <section id="awards-fellowship" class="level2">
 <h2 class="anchored" data-anchor-id="awards-fellowship">Awards &amp; Fellowship</h2>
@@ -204,11 +233,21 @@ GPA: 3.845 | Dean’s Honor List</p>
 </section>
 <section id="skills-languages" class="level2">
 <h2 class="anchored" data-anchor-id="skills-languages">Skills &amp; Languages</h2>
-<p><strong>Data Analysis:</strong> Excel, SQL, Python (Pandas, NumPy, Matplotlib, Seaborn, etc.), R, Tableau, and MATLAB</p>
-<p><strong>Machine Learning:</strong> Keras, PyTorch, Scikit-learn; familiar with machine/deep/reinforcement learning, and model optimization methods</p>
-<p><strong>Project Management:</strong> Goal decomposition, progress-tracking, and cross-functional collaboration (Using tools: Dingding and Lark)</p>
-<p><strong>Social Media Content Production:</strong> Copywriting, graphic design and layout (Xiumi, CDR, Gaoding Design, and Photoshop), video production (CapCut and VideoStudio), and live streaming (OBS, and live room setup)</p>
-<p><strong>Bilingual Communications:</strong> Fluent in English and Chinese</p>
+<ul>
+<li><strong>Programming:</strong> Python, R, MATLAB, C<br>
+</li>
+<li><strong>Machine Learning:</strong> PyTorch, Keras, Scikit-learn; familiar with deep learning, reinforcement learning, and hyperparameter optimization<br>
+</li>
+<li><strong>Data Analysis &amp; Scientific Computing:</strong> Pandas, NumPy, SciPy, Numba, Matplotlib, Seaborn, SQL, Tableau, ANSYS, Excel<br>
+</li>
+<li><strong>Embedded Systems:</strong> Analog &amp; Digital Circuits, 8051 MCU Development, Arduino<br>
+</li>
+<li><strong>Tools:</strong> Git, Slurm, LaTeX<br>
+</li>
+<li><strong>Design &amp; Media Production:</strong> SolidWorks, CorelDRAW, Photoshop, Canva, CapCut, VideoStudio, OBS<br>
+</li>
+<li><strong>Languages:</strong> Fluent in English and Chinese</li>
+</ul>
 </section>
 <section id="research-experience" class="level2">
 <h2 class="anchored" data-anchor-id="research-experience">Research Experience</h2>
@@ -216,10 +255,13 @@ GPA: 3.845 | Dean’s Honor List</p>
 <h3 class="anchored" data-anchor-id="optimizing-llm-and-rl-methods-to-explore-open-problems-in-combinatorics-a-case-study-on-the-no-three-in-line-problem">Optimizing LLM and RL Methods to Explore Open Problems in Combinatorics: A Case Study on the “No-Three-in-Line” Problem</h3>
 <p><em>March 2025 – Ongoing</em></p>
 <ul>
-<li>Implemented MCTS to explore the largest and smallest complete sets, and optimized the algorithm’s time complexity through algorithmic improvements and Numba acceleration (boosting performance from ~7 iter/s to 6,000+ iter/s)</li>
-<li>For n=53……101, the algorithm finds 1.68n points, which outperforms the previous best lower bound: ((1.5-ε)n)</li>
-<li><strong>Ongoing:</strong> Exploring the smallest geometric dominating set and complete set. Developing Graph Search algorithm</li>
-<li><strong>Ongoing:</strong> Investigating the LLM-based methods for code optimization to explore the open problems in combinatorics</li>
+<li>Implemented Monte Carlo Tree Search (MCTS) and Neural Networks to explore the largest and smallest complete sets, and optimized the algorithm’s time complexity through algorithmic improvements and Numba acceleration, boosting performance from ~7 iter/s to 15,000+ iter/s.<br>
+</li>
+<li>For <span class="math inline">\(58&lt;n&lt;73\)</span>, the algorithm finds <strong><span class="math inline">\(1.8n \pm 2\)</span></strong> points, which outperforms the previous best lower bound: <span class="math inline">\((1.5 - \varepsilon) n\)</span>. Based on the observed trend, the bound appears to asymptotically approach <span class="math inline">\(1.8n\)</span> for larger <span class="math inline">\(n\)</span>.</li>
+<li>Optimizing an AlphaZero-based reinforcement learning framework, focusing on state encoding, network architecture, hyperparameter tuning, and data augmentation.</li>
+<li>Exploring the smallest geometric dominating set and complete set; developing graph search algorithms.<br>
+</li>
+<li>Investigating LLM-based methods for code optimization to explore open problems in combinatorics.</li>
 </ul>
 </section>
 <section id="optimizing-large-language-models-llm-for-academic-support-a-framework-for-knowledge-graph-kg-embedding-and-cheat-sheet-generation" class="level3">
@@ -243,8 +285,7 @@ GPA: 3.845 | Dean’s Honor List</p>
 <h2 class="anchored" data-anchor-id="project-experience">Project Experience</h2>
 <section id="nasdaq-index-prediction-and-investment-simulation" class="level3">
 <h3 class="anchored" data-anchor-id="nasdaq-index-prediction-and-investment-simulation">Nasdaq Index Prediction and Investment Simulation</h3>
-<p><em>March 2025</em><br>
-<a href="https://drive.google.com/file/d/1njUm_d0GYLqZYN73xTylvTmCSD6qNk_b/view?usp=sharing">🔗 Project Link</a></p>
+<p><em>March 2025</em></p>
 <p><strong>Objective:</strong> Predict future Nasdaq Index by machine learning and neural network models</p>
 <ul>
 <li>Preprocessed the dataset (1984 samples and 84 features, including technical indicators, futures contracts, etc.) by feature augmentation, conversion, filling and dropping null values, and time-series train-test split</li>
@@ -255,8 +296,7 @@ GPA: 3.845 | Dean’s Honor List</p>
 </section>
 <section id="cnn-and-vision-transformer-pre-trained-models-for-facial-emotion-recognition" class="level3">
 <h3 class="anchored" data-anchor-id="cnn-and-vision-transformer-pre-trained-models-for-facial-emotion-recognition">CNN and Vision Transformer Pre-trained Models for Facial Emotion Recognition</h3>
-<p><em>May 2024</em><br>
-<a href="https://drive.google.com/file/d/1j3xmFDkB6QKtBSuIHxm_Fmy72fiZ3dMB/view?usp=sharing">🔗 Project Link</a></p>
+<p><em>May 2024</em></p>
 <p><strong>Objective:</strong> Building CNN and Vision Transformer networks to recognize facial emotions from scratch</p>
 <ul>
 <li>Preprocessed the FER-2013 dataset with 35,887 grayscale images (48x48 pixels) of 7 categories, addressed class imbalance by resampling, and implemented data augmentation by rotating and resizing the images</li>
@@ -266,8 +306,7 @@ GPA: 3.845 | Dean’s Honor List</p>
 </section>
 <section id="market-data-analysis-for-airbnb-in-dublin" class="level3">
 <h3 class="anchored" data-anchor-id="market-data-analysis-for-airbnb-in-dublin">Market Data Analysis for Airbnb in Dublin</h3>
-<p><em>April 2024</em><br>
-<a href="https://devpost.com/software/dublin-data-analysis">🔗 Project Link</a></p>
+<p><em>April 2024</em></p>
 <p><strong>Objective:</strong> Understanding the user profile and optimizing the searching-to-booking conversion rate<br>
 <strong>Tools used:</strong> Tableau, Python (Pandas, NumPy, Sklearn, XGBoost, Matplotlib, Seaborn)</p>
 <ul>
@@ -279,8 +318,7 @@ GPA: 3.845 | Dean’s Honor List</p>
 </section>
 <section id="analysis-on-airline-dataset" class="level3">
 <h3 class="anchored" data-anchor-id="analysis-on-airline-dataset">Analysis on Airline Dataset</h3>
-<p><em>September 2023</em><br>
-<a href="https://ybaki97.github.io/Math10-SSII23/students/LuoningZhang.html">🔗 Project Link</a></p>
+<p><em>September 2023</em></p>
 <p><strong>Objective:</strong> Analyzed flight data to understand the demographics of passengers and predict flight status<br>
 <strong>Tools used:</strong> Python (Pandas, Sklearn, Altair)</p>
 <ul>
@@ -294,7 +332,7 @@ GPA: 3.845 | Dean’s Honor List</p>
 <h2 class="anchored" data-anchor-id="work-experience">Work Experience</h2>
 <section id="easytransfer-beijing-china" class="level3">
 <h3 class="anchored" data-anchor-id="easytransfer-beijing-china">EasyTransfer, Beijing, China</h3>
-<p><em>Social Media Marketing Project Leader and User Growth Analyst</em><br>
+<p><em>Marketing Project Leader and User Growth Analyst</em><br>
 <em>February 2023 – May 2023 | 40hrs/week</em></p>
 <ul>
 <li>Optimized marketing strategy by using funnel model and analyzing user data, and initiated the entire process of WeChat user acquisition SOP from scratch, increasing users by 25%</li>
