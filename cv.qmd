@@ -11,7 +11,7 @@ title: "CV"
 **University of California, Irvine**  
 *B.S. in Applied and Computational Mathematics (Data Science Concentration)*  
 September 2020 – December 2025  
-GPA: 3.845 | Dean's Honor List
+GPA: **3.845** (Upper-division GPA: **4.00**) | Dean's Honor List
 
 ## Awards & Fellowship
 
@@ -23,25 +23,24 @@ GPA: 3.845 | Dean's Honor List
 
 ## Skills & Languages
 
-**Data Analysis:** Excel, SQL, Python (Pandas, NumPy, Matplotlib, Seaborn, etc.), R, Tableau, and MATLAB
-
-**Machine Learning:** Keras, PyTorch, Scikit-learn; familiar with machine/deep/reinforcement learning, and model optimization methods
-
-**Project Management:** Goal decomposition, progress-tracking, and cross-functional collaboration (Using tools: Dingding and Lark)
-
-**Social Media Content Production:** Copywriting, graphic design and layout (Xiumi, CDR, Gaoding Design, and Photoshop), video production (CapCut and VideoStudio), and live streaming (OBS, and live room setup)
-
-**Bilingual Communications:** Fluent in English and Chinese
+- **Programming:** Python, R, MATLAB, C  
+- **Machine Learning:** PyTorch, Keras, Scikit-learn; familiar with deep learning, reinforcement learning, and hyperparameter optimization  
+- **Data Analysis & Scientific Computing:** Pandas, NumPy, SciPy, Numba, Matplotlib, Seaborn, SQL, Tableau, ANSYS, Excel  
+- **Embedded Systems:** Analog & Digital Circuits, 8051 MCU Development, Arduino  
+- **Tools:** Git, Slurm, LaTeX  
+- **Design & Media Production:** SolidWorks, CorelDRAW, Photoshop, Canva, CapCut, VideoStudio, OBS  
+- **Languages:** Fluent in English and Chinese
 
 ## Research Experience
 
 ### Optimizing LLM and RL Methods to Explore Open Problems in Combinatorics: A Case Study on the "No-Three-in-Line" Problem
 *March 2025 – Ongoing*
 
-- Implemented MCTS to explore the largest and smallest complete sets, and optimized the algorithm's time complexity through algorithmic improvements and Numba acceleration (boosting performance from ~7 iter/s to 6,000+ iter/s)
-- For n=53……101, the algorithm finds 1.68n points, which outperforms the previous best lower bound: ((1.5-ε)n)
-- **Ongoing:** Exploring the smallest geometric dominating set and complete set. Developing Graph Search algorithm
-- **Ongoing:** Investigating the LLM-based methods for code optimization to explore the open problems in combinatorics
+- Implemented Monte Carlo Tree Search (MCTS) and Neural Networks to explore the largest and smallest complete sets, and optimized the algorithm’s time complexity through algorithmic improvements and Numba acceleration, boosting performance from ~7 iter/s to 15,000+ iter/s.  
+- For $58<n<73$, the algorithm finds **$1.8n \pm 2$** points, which outperforms the previous best lower bound: $(1.5 - \varepsilon) n$. Based on the observed trend, the bound appears to asymptotically approach $1.8n$ for larger $n$.
+- Optimizing an AlphaZero-based reinforcement learning framework, focusing on state encoding, network architecture, hyperparameter tuning, and data augmentation.
+- Exploring the smallest geometric dominating set and complete set; developing graph search algorithms.  
+- Investigating LLM-based methods for code optimization to explore open problems in combinatorics.  
 
 ### Optimizing Large Language Models (LLM) for Academic Support: A Framework for Knowledge Graph (KG) Embedding and Cheat Sheet Generation
 *September 2024 – June 2025*
@@ -59,7 +58,6 @@ GPA: 3.845 | Dean's Honor List
 
 ### Nasdaq Index Prediction and Investment Simulation
 *March 2025*  
-[🔗 Project Link](https://drive.google.com/file/d/1njUm_d0GYLqZYN73xTylvTmCSD6qNk_b/view?usp=sharing)
 
 **Objective:** Predict future Nasdaq Index by machine learning and neural network models
 
@@ -70,7 +68,6 @@ GPA: 3.845 | Dean's Honor List
 
 ### CNN and Vision Transformer Pre-trained Models for Facial Emotion Recognition
 *May 2024*  
-[🔗 Project Link](https://drive.google.com/file/d/1j3xmFDkB6QKtBSuIHxm_Fmy72fiZ3dMB/view?usp=sharing)
 
 **Objective:** Building CNN and Vision Transformer networks to recognize facial emotions from scratch
 
@@ -80,7 +77,6 @@ GPA: 3.845 | Dean's Honor List
 
 ### Market Data Analysis for Airbnb in Dublin
 *April 2024*  
-[🔗 Project Link](https://devpost.com/software/dublin-data-analysis)
 
 **Objective:** Understanding the user profile and optimizing the searching-to-booking conversion rate  
 **Tools used:** Tableau, Python (Pandas, NumPy, Sklearn, XGBoost, Matplotlib, Seaborn)
@@ -92,7 +88,6 @@ GPA: 3.845 | Dean's Honor List
 
 ### Analysis on Airline Dataset
 *September 2023*  
-[🔗 Project Link](https://ybaki97.github.io/Math10-SSII23/students/LuoningZhang.html)
 
 **Objective:** Analyzed flight data to understand the demographics of passengers and predict flight status  
 **Tools used:** Python (Pandas, Sklearn, Altair)
@@ -104,7 +99,7 @@ GPA: 3.845 | Dean's Honor List
 ## Work Experience
 
 ### EasyTransfer, Beijing, China
-*Social Media Marketing Project Leader and User Growth Analyst*  
+*Marketing Project Leader and User Growth Analyst*  
 *February 2023 – May 2023 | 40hrs/week*
 
 - Optimized marketing strategy by using funnel model and analyzing user data, and initiated the entire process of WeChat user acquisition SOP from scratch, increasing users by 25%

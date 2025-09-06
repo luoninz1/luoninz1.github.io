@@ -7,7 +7,7 @@ title: "Luoning Zhang"
 ::: {.column width="65%"}
 I am a fourth-year undergraduate student at the **University of California, Irvine**, majoring in **Computational and Applied Mathematics** with a concentration in **Data Science**.  
 
-I have strong interests in **Reinforcement Learning**, **Deep Learning**, and their applications to **computer vision**, **natural language processing**, **code superoptimization**, **automated driving**, and **AI for mathematics (AI4Math)**, with relevant [**research**](research.qmd) and [**project**](projects.qmd) experience in some of these areas.  
+I have strong interests in **Reinforcement Learning**, **Deep Learning**, and their applications to **computer vision**, **natural language processing**, **code superoptimization**, **automated driving**, and **AI for mathematics (AI4Math)**, with relevant [**research**](research.qmd) and [**project**](projects.qmd) experience in some of these areas. I also have over a year of [**work and internship experience**](cv.qmd#work-experience) across different fields, including Internet services, automobile, FinTech, and education, which gives me an understanding of real-world industry challenges. Together with a solid academic background, this enables me not only to pursue theoretical innovations but also to apply them to solve practical problems.   
 
 My goal is to leverage computer algorithms and automation technologies to free humanity from repetitive physical and mental labor, allowing us to focus on creativity and imagination, and ultimately to accelerate scientific progress and human well-being.
 
@@ -33,7 +33,7 @@ My goal is to leverage computer algorithms and automation technologies to free h
 
 ::::
 
-## Interests
+## Research Interests
 
 - Reinforcement Learning  
 - Deep Learning  
