@@ -178,6 +178,8 @@ ul.task-list li input[type="checkbox"] {
 </li>
 <li>Deep Learning<br>
 </li>
+<li>Neuro-symbolic AI</li>
+<li>Multi-armed Bandits</li>
 <li>Automated Driving<br>
 </li>
 <li>Code Superoptimization</li>
@@ -322,7 +324,7 @@ Dean’s Honor List</li>
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/luoninz1\.github\.io\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

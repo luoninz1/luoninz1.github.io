@@ -37,6 +37,8 @@ My goal is to leverage computer algorithms and automation technologies to free h
 
 - Reinforcement Learning  
 - Deep Learning  
+- Neuro-symbolic AI
+- Multi-armed Bandits
 - Automated Driving  
 - Code Superoptimization
 - AI4Math
