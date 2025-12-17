@@ -26,7 +26,7 @@ website:
         text: Projects
       - href: publications-patents.qmd
         text: "Publications & Patents"
-      - href: cv.qmd
+      - href: Luoning Zhang_CV.pdf
         text: CV
       - href: courseworks.qmd
         text: Coursework

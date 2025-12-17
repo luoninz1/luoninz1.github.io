@@ -11,7 +11,7 @@ I have strong interests in **Reinforcement Learning**, **Deep Learning**, and th
 
 My goal is to leverage computer algorithms and automation technologies to free humanity from repetitive physical and mental labor, allowing us to focus on creativity and imagination, and ultimately to accelerate scientific progress and human well-being.
 
-**Contact me:** [luoninz1@uci.edu](mailto:luoninz1@uci.edu) | Here's my [**Curriculum Vitae (CV)**](cv.qmd)
+**Contact me:** [luoninz1@uci.edu](mailto:luoninz1@uci.edu) | Here's my [**Curriculum Vitae (CV)**](Luoning Zhang_CV.pdf)
 
 :::
 

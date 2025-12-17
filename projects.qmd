@@ -2,6 +2,16 @@
 title: "Projects"
 ---
 
+### Regret Analysis of the Upper Confidence Bound Algorithm for Multi-Armed Bandits
+*November 2025*  
+**Objective:** Authored a self-contained expository paper analyzing the exploration-exploitation tradeoff in multi-armed bandits.  
+
+[Paper](Draft_Final_Optimism_Under_Uncertainty__Regret_Analysis_of_the_Upper_Confidence_Bound_Algorithm_for_Multi_Armed_Bandits.pdf){.btn .btn-primary .me-2} [Demo](https://luoninz1.github.io/MAB_Demo/){.btn .btn-outline-secondary}
+
+- Presented formal definitions of the MAB framework including policies, regret metrics, and the Explore-Then-Commit baseline; derived UCB1's confidence radius from the Chernoff-Hoeffding bound.  
+- Provided a complete proof of UCB1's O(ln n) regret upper bound, demonstrating how optimism under uncertainty limits suboptimal arm pulls.  
+- Built an interactive web demo allowing users to manually explore the bandit problem and compare ETC vs UCB1 policies through Monte Carlo simulations with real-time regret visualization.  
+
 ### Nasdaq Index Prediction and Investment Simulation
 *March 2025*  
 **Objective:** Predict future Nasdaq Index using machine learning and neural network models.  

@@ -107,7 +107,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Publications &amp; Patents</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./cv.html"> 
+    <a class="nav-link" href="./Luoning Zhang_CV.pdf"> 
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
@@ -130,7 +130,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#nasdaq-index-prediction-and-investment-simulation" id="toc-nasdaq-index-prediction-and-investment-simulation" class="nav-link active" data-scroll-target="#nasdaq-index-prediction-and-investment-simulation">Nasdaq Index Prediction and Investment Simulation</a></li>
+  <li><a href="#regret-analysis-of-the-upper-confidence-bound-algorithm-for-multi-armed-bandits" id="toc-regret-analysis-of-the-upper-confidence-bound-algorithm-for-multi-armed-bandits" class="nav-link active" data-scroll-target="#regret-analysis-of-the-upper-confidence-bound-algorithm-for-multi-armed-bandits">Regret Analysis of the Upper Confidence Bound Algorithm for Multi-Armed Bandits</a></li>
+  <li><a href="#nasdaq-index-prediction-and-investment-simulation" id="toc-nasdaq-index-prediction-and-investment-simulation" class="nav-link" data-scroll-target="#nasdaq-index-prediction-and-investment-simulation">Nasdaq Index Prediction and Investment Simulation</a></li>
   <li><a href="#cnn-and-vision-transformer-pre-trained-models-for-facial-emotion-recognition" id="toc-cnn-and-vision-transformer-pre-trained-models-for-facial-emotion-recognition" class="nav-link" data-scroll-target="#cnn-and-vision-transformer-pre-trained-models-for-facial-emotion-recognition">CNN and Vision Transformer Pre-trained Models for Facial Emotion Recognition</a></li>
   <li><a href="#market-data-analysis-for-airbnb-in-dublin" id="toc-market-data-analysis-for-airbnb-in-dublin" class="nav-link" data-scroll-target="#market-data-analysis-for-airbnb-in-dublin">Market Data Analysis for Airbnb in Dublin</a></li>
   <li><a href="#analysis-on-airline-dataset" id="toc-analysis-on-airline-dataset" class="nav-link" data-scroll-target="#analysis-on-airline-dataset">Analysis on Airline Dataset</a></li>
@@ -159,6 +160,19 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="regret-analysis-of-the-upper-confidence-bound-algorithm-for-multi-armed-bandits" class="level3">
+<h3 class="anchored" data-anchor-id="regret-analysis-of-the-upper-confidence-bound-algorithm-for-multi-armed-bandits">Regret Analysis of the Upper Confidence Bound Algorithm for Multi-Armed Bandits</h3>
+<p><em>November 2025</em><br>
+<strong>Objective:</strong> Authored a self-contained expository paper analyzing the exploration-exploitation tradeoff in multi-armed bandits.</p>
+<p><a href="Draft_Final_Optimism_Under_Uncertainty__Regret_Analysis_of_the_Upper_Confidence_Bound_Algorithm_for_Multi_Armed_Bandits.pdf" class="btn btn-primary me-2">Paper</a> <a href="https://luoninz1.github.io/MAB_Demo/" class="btn btn-outline-secondary">Demo</a></p>
+<ul>
+<li>Presented formal definitions of the MAB framework including policies, regret metrics, and the Explore-Then-Commit baseline; derived UCB1’s confidence radius from the Chernoff-Hoeffding bound.<br>
+</li>
+<li>Provided a complete proof of UCB1’s O(ln n) regret upper bound, demonstrating how optimism under uncertainty limits suboptimal arm pulls.<br>
+</li>
+<li>Built an interactive web demo allowing users to manually explore the bandit problem and compare ETC vs UCB1 policies through Monte Carlo simulations with real-time regret visualization.</li>
+</ul>
+</section>
 <section id="nasdaq-index-prediction-and-investment-simulation" class="level3">
 <h3 class="anchored" data-anchor-id="nasdaq-index-prediction-and-investment-simulation">Nasdaq Index Prediction and Investment Simulation</h3>
 <p><em>March 2025</em><br>
@@ -288,7 +302,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/luoninz1\.github\.io\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
