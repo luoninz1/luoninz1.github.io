@@ -2,10 +2,9 @@
 title: "Publications & Patents"
 ---
 
-## Publications
+## Preprints
 
-
-- *Work in progress*: Optimizing LLM and RL Methods to Explore Open Problems in Combinatorics.
+- Luoning Zhang, Xu Zhuang, Tianhao Wang, and Nathan Kaplan. *Geometry-Aware MCTS for Extremal Problems in Combinatorial Geometry*. arXiv preprint arXiv:2606.26399, 2026. [arXiv](https://arxiv.org/abs/2606.26399)
 
 ## Patents
 
